@@ -1,6 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
+import Button from '@material-ui/core/Button';
 import A from './A';
 import Img from './Img';
 import NavBar from './NavBar';
@@ -15,6 +16,7 @@ function Header() {
         <Img src={Banner} alt="react-boilerplate - Logo" />
       </A>
       <NavBar>
+        <Button variant="contained" color="secondary">Default</Button>
         <HeaderLink to="/">
           <FormattedMessage {...messages.home} />
         </HeaderLink>
