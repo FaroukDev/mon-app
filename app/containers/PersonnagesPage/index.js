@@ -21,7 +21,7 @@ export default class PersonnagesPage extends React.Component {
 
   handleChange = name => event => {
     this.setState({ [name]: event.target.value });
-};
+  };
 
   render() {
     return (
@@ -47,3 +47,5 @@ export default class PersonnagesPage extends React.Component {
     );
   }
 }
+
+// je me suis arreté a 20 minutes
