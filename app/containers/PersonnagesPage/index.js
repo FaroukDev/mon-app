@@ -37,7 +37,7 @@ export default class PersonnagesPage extends React.Component {
   }
 
   componentDidMount = () => {
-    this.handleCallAPIPerso('spider')
+    this.handleCallAPIPerso(this.state.searchName)
   }
 
   handleChange = event => {
